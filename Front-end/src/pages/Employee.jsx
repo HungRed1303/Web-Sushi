@@ -20,7 +20,6 @@ const Employee = () => {
   const employeesPerPage = 10; // Số dòng mỗi trang
   const navigate = useNavigate();
 
-  // Tải danh sách nhân viên ban đầu
   useEffect(() => {
     const branchID = localStorage.getItem("BranchID");
     const loadEmployees = async () => {
